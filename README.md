@@ -3,7 +3,7 @@
 
 This tool provides an intuitive user interface that displays both pseudocode and graphical visualisation of common sorting algorithms.
 
-Sorting algorithms include:
+Sorting algorithms available in this tool include:
 * Bubble sort
 * Selection sort
 * Insertion sort
