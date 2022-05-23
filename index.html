@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="sorting"></div>
+    <div id="pseudocode"></div>
+    <div id="menu">
+        <button id="shuffle">Shuffle</button>
+        <button id="sortingPlayback">Start</button>
+
+        <input id="numOfElements" type="range" min="1" max="1000" value="10">
+        
+        <div id="playback">
+            <button>x0.5</button>
+            <button>x1</button>
+            <button>x2</button>
+            <button>x4</button>
+        </div>
+
+        <select id="sortingAlgorithm" name="algorithm">
+            <option value="BubbleSort">Bubble Sort</option>
+            <option value="SelectionSort">Selection Sort</option>
+            <option value="InsertionSort">Insertion Sort</option>
+            <option value="MergeSort">Merge Sort</option>
+        </select>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./SortingMethods/BubbleSort.js"></script>
+  </body>
+</html>
